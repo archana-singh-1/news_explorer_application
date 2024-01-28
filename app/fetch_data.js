@@ -13,7 +13,6 @@ function Fetch_data() {
       });
   }, []);
 
-  return <News_row articles={newsdata} />;
 }
 
 export default Fetch_data;

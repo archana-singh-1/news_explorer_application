@@ -2,8 +2,11 @@ import './footer.css'
 
 function Footer() {
   return (
-    <div className='row'>
-    </div>
+    <>
+        <hr/>
+        <div className='footer'>
+        </div>
+    </>
   )
 }
 
