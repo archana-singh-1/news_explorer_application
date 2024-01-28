@@ -1,4 +1,27 @@
 .footer{
-    border: 2px solid blue;
     height:81px;
+}
+
+#img_logo{
+    width: 8.3px;
+    height: 8.3px;
+}
+
+.footer_con{
+    height: 22px;
+    width:476px;
+    border: 2px solid blue;
+    font-size: 15.1px;
+    line-height: 21.13px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin:auto;
+    margin-top: 50px;
+
+    
+}
+
+.footer_hr{
+    border: solid 2px dark;
+    margin-top: 70px;
 }

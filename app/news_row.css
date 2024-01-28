@@ -2,7 +2,49 @@
     margin-bottom: 10px;
 }
 .col-sm-12 {
-    border: 1px solid red;
+    border: 3px solid lightgrey;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    background: light;
+    cursor: pointer;
     height: 388px;
     gap:80px
 }
+
+#news_images{
+    width: 250px;
+    height: 120px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: dark;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+#urls{
+    color:blue;
+    font-size: 15px;
+
+}
+
+
+@media (max-width:600px){
+    #news_images{
+        width: 100%;
+    }
+
+
+    p{
+        width: 100%;
+    }
+
+    
+}
+

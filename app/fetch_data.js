@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import News_row from './news_row';
 
 function Fetch_data() {
   const [newsdata, setNewsdata] = useState([]);
@@ -13,6 +12,17 @@ function Fetch_data() {
       });
   }, []);
 
+
+
+  return(
+    <div>
+      {newsdata.map((article)=>{
+        <p key={article.title}>{article.title}</p>
+
+      })}
+    </div>
+  )
 }
+
 
 export default Fetch_data;

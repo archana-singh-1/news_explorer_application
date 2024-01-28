@@ -12,8 +12,13 @@ function Page() {
       {list.map((item) => (
         <div className="col-sm-12 col-md-4">
         <News_row
+          img={item.urlToImage}
           title={item.title}
-          img={<img src={item.urlToImage} height={'200px'} width={'200px'} />}
+          description={item.description}
+          url={item.url}
+
+          
+
         />
         </div>
       ))}
