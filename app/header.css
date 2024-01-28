@@ -1,0 +1,79 @@
+.header{
+    width: 563.29px;
+    height: 118px;
+    margin: auto;
+    display: flex;
+}
+.image{
+    height:60.29px;
+    width: 60.29px;
+    margin-top: 30px;
+    margin-left: 3px;
+}
+
+
+
+.newsapi{
+    width: 351px;
+    color: #3c3030;
+    height: 118px;
+    text-align: center;
+    font-size: 84px;
+    font-weight: 400;
+    line-height: 117.6px;
+    
+    
+    
+}
+.org{
+    width: 144px;
+    line-height: 117.6px;
+    height: 118px;
+    color: #3c3030;
+    text-align: center;
+    font-size: 84px;
+    font-weight: 400;
+
+}
+
+hr{
+    color: #3c3030;
+}
+
+.search-container{
+    width: 371px;
+    height: 61px;
+    margin: auto;
+
+}
+
+input{
+    width:267px;
+    height: 60px;
+
+
+}
+
+button{
+    width:61px;
+    height: 61px;
+    background: red;
+    border: none;
+}
+
+.search{
+    width:32px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+.heading{
+    width: 194px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: darkred;
+    margin-top: 32px;
+}
+

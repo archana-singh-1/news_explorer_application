@@ -1,0 +1,8 @@
+.row{
+    margin-bottom: 10px;
+}
+.col-sm-12 {
+    border: 1px solid red;
+    height: 388px;
+    gap:80px
+}
